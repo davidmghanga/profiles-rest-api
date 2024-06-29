@@ -48,7 +48,7 @@ This project runs using Vagrant. It should work consistently on Windows, MacOS a
     ```sh
     python manage.py runserver 0.0.0.0:8000
     ```
-12. Access the Djangp Admin at http://127.0.0.1:8000/admin/
+12. Access the Django Admin at http://127.0.0.1:8000/admin/
 13. Log into the Django Admin with you superuser email and password.
 14. Access the Profiles API Viewset at http://127.0.0.1:8000/api/profile/
 15. Access the login API Viewset at http://127.0.0.1:8000/api/login/
@@ -58,7 +58,7 @@ This project runs using Vagrant. It should work consistently on Windows, MacOS a
 19. Access the API Viewset at http://127.0.0.1:8000/api/hello-viewset/
 20. Access the API View at http://127.0.0.1:8000/api/hello-view
 ### Quiting the developement server
-1. Press Control + C on Windows and Linux or Command + C on MacOS.
+1. Press Ctrl + C on Windows and Linux or Command + C on MacOS.
 2. Deactivate the Python virtual environment:
    ```sh
    deactivate
